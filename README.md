@@ -65,3 +65,22 @@ To check AWS credentials is configured properly
 ```sh
 aws sts get-caller-identity
 ```
+## Terrafrom Basic
+
+### Terrafrom Registry
+
+[registry.terraform.io](https://registry.terraform.io/)
+
+- **Providers** is an interface to API that will allow to create resources in terraform
+- **Modules** are a way to make large amount of terraform code modular , portable and shareable
+
+### Terrform commands
+
+`terraform init` : start of new project we run this command . It downloads the binaries for terraform providers that we will use in this project
+
+`terraform plan` : This will generate out a changeset about the state of our infra and what will bw changed
+
+`terraform apply` : This will run a plan and pass the changeset to provider api.
+`terraform apply --auto-approve`
+
+`terraform output` : This will show outputs of all the files
