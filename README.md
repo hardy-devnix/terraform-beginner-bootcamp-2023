@@ -84,3 +84,5 @@ aws sts get-caller-identity
 `terraform apply --auto-approve`
 
 `terraform output` : This will show outputs of all the files
+
+`terraform destroy` : this will destroy resource
