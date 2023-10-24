@@ -28,7 +28,8 @@ The general format :
 #### Linux permission for script should be :
 `chmod u+x <script_name>`
 
-eg. ```sh
+eg. 
+```sh
 chmod u+x ./bin/install_terraform_cli.sh
 ```
 
@@ -42,3 +43,25 @@ OR
 eg. `./bin/install_terraform_cli.sh`
 
 ## Project Env variable 
+### using env files
+Create .env file
+eg. `touch .env.example`
+
+Then create env variable in file
+eg. `PROJECT_ROOT='/workspace/terraform-beginner-bootcamp-2023'`
+
+### Using gp env command
+
+gp env AWS_ACCESS_KEY_ID=''
+gp env AWS_SECRET_ACCESS_KEY=''
+gp env AWS_DEFAULT_REGION='us-east-1'
+
+
+## AWS CLI Installation
+
+AWS CLI is installed in this project
+
+To check AWS credentials is configured properly
+```sh
+aws sts get-caller-identity
+```
