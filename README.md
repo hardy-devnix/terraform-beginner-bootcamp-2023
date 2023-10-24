@@ -40,3 +40,5 @@ OR
 ##### Running script from gitpod.yml we need to point to a program to interpret it. 
 
 eg. `./bin/install_terraform_cli.sh`
+
+## Project Env variable 
